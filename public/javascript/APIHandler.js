@@ -8,7 +8,7 @@ class APIHandler {
       return this.api.get('/characters');
     };
     
-    ggetOneRegister = (characterId) => {
+    getOneRegister = (characterId) => {
       return this.api.get(`/characters/${characterId}`);
     }
    
